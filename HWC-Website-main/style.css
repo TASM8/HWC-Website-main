@@ -96,61 +96,6 @@ main {
     );
 }
 
-/* Resource Logos */
-
-.cfc-logo {
-    display: block;
-    width: 25%;
-    max-width: 300px;
-    height: auto;
-
-    margin: 40px auto 25px;
-
-    filter: drop-shadow(
-        0 5px 8px rgba(0, 0, 0, 0.2)
-    );
-}
-
-.qc-logo {
-    display: block;
-    width: 30%;
-    height: auto;
-    margin: 40px auto 25px;
-    filter: drop-shadow(
-        0 5px 8px rgba(0, 0, 0, 0.2)
-    );
-}
-
-.sip-logo {
-    display: block;
-    width: 30%;
-    height: auto;
-    margin: 40px auto 25px;
-    filter: drop-shadow(
-        0 5px 8px rgba(0, 0, 0, 0.2)
-    );
-}
-
-.ta-logo {
-    display: block;
-    width: 30%;
-    height: auto;
-    margin: 40px auto 25px;
-    filter: drop-shadow(
-        0 5px 8px rgba(0, 0, 0, 0.2)
-    );
-}
-
-.md-logo {
-    display: block;
-    width: 40%;
-    height: auto;
-    margin: 40px auto 25px;
-    filter: drop-shadow(
-        0 5px 8px rgba(0, 0, 0, 0.2)
-    );
-}
-
 /* Welcome */
 
 .welcome {
@@ -452,6 +397,71 @@ main {
     color: rgb(80, 55, 8);
 
     line-height: 1.7;
+}
+
+/* Resource Logos */
+
+.cfc-logo {
+    display: block;
+    width: 25%;
+    max-width: 300px;
+    height: auto;
+
+    margin: 40px auto 25px;
+
+    filter: drop-shadow(
+        0 5px 8px rgba(0, 0, 0, 0.2)
+    );
+}
+
+.qc-logo {
+    display: block;
+    width: 30%;
+    height: auto;
+    margin: 40px auto 25px;
+    filter: drop-shadow(
+        0 5px 8px rgba(0, 0, 0, 0.2)
+    );
+}
+
+.sip-logo {
+    display: block;
+    width: 30%;
+    height: auto;
+    margin: 40px auto 25px;
+    filter: drop-shadow(
+        0 5px 8px rgba(0, 0, 0, 0.2)
+    );
+}
+
+.ta-logo {
+    display: block;
+    width: 30%;
+    height: auto;
+    margin: 40px auto 25px;
+    filter: drop-shadow(
+        0 5px 8px rgba(0, 0, 0, 0.2)
+    );
+}
+
+.stip-logo {
+    display: block;
+    width: 30%;
+    height: auto;
+    margin: 40px auto 25px;
+    filter: drop-shadow(
+        0 5px 8px rgba(0, 0, 0, 0.2)
+    );
+}
+
+.md-logo {
+    display: block;
+    width: 40%;
+    height: auto;
+    margin: 40px auto 25px;
+    filter: drop-shadow(
+        0 5px 8px rgba(0, 0, 0, 0.2)
+    );
 }
 
 /* Guidelines List */
