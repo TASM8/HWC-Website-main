@@ -100,9 +100,8 @@ main {
 
 .cfc-logo {
     display: block;
-
     width: 25%;
-    max-width: auto;
+    max-width: 300px;
     height: auto;
 
     margin: 40px auto 25px;
@@ -114,13 +113,9 @@ main {
 
 .qc-logo {
     display: block;
-
     width: 30%;
-    max-width: auto;
     height: auto;
-
     margin: 40px auto 25px;
-
     filter: drop-shadow(
         0 5px 8px rgba(0, 0, 0, 0.2)
     );
@@ -128,13 +123,9 @@ main {
 
 .sip-logo {
     display: block;
-
     width: 30%;
-    max-width: auto;
     height: auto;
-
     margin: 40px auto 25px;
-
     filter: drop-shadow(
         0 5px 8px rgba(0, 0, 0, 0.2)
     );
@@ -142,13 +133,9 @@ main {
 
 .ta-logo {
     display: block;
-
     width: 30%;
-    max-width: auto;
     height: auto;
-
     margin: 40px auto 25px;
-
     filter: drop-shadow(
         0 5px 8px rgba(0, 0, 0, 0.2)
     );
@@ -156,13 +143,9 @@ main {
 
 .md-logo {
     display: block;
-
     width: 40%;
-    max-width: auto;
     height: auto;
-
     margin: 40px auto 25px;
-
     filter: drop-shadow(
         0 5px 8px rgba(0, 0, 0, 0.2)
     );
@@ -255,13 +238,7 @@ main {
     margin-top: 0;
 }
 
-.contact p {
-    color: rgb(80, 55, 8);
-
-    line-height: 1.6;
-}
-
-.contact a {
+.contact p > a {
     color: rgb(135, 70, 70);
 
     font-weight: bold;
@@ -269,7 +246,7 @@ main {
     text-decoration: none;
 }
 
-.contact a:hover {
+.contact p > a:hover {
     color: #d1845c;
 
     text-decoration: underline;
@@ -623,6 +600,195 @@ main {
     padding-left: 40px;
 
     line-height: 1.8;
+}
+
+/*Pride Flags Table */
+
+.prideflags-table {
+    width: 90%;
+
+    max-width: 900px;
+
+    margin: 40px auto;
+
+    border-collapse: separate;
+
+    background-color: #ffffff;
+
+    border: 3px solid #d6a36a;
+
+    border-radius: 20px;
+
+    overflow: hidden;
+
+    box-shadow:
+        0 6px 15px rgba(135, 70, 70, 0.15);
+
+    color: rgb(80, 55, 8);
+}
+
+.prideflags-table img {
+    display: block;
+     width: 180px;
+     height: 110px;
+
+    object-fit: cover;
+
+    margin: 0 auto 10px;
+
+    border-radius: 8px;
+
+    border: 3px solid white;
+
+    box-shadow:
+        0 3px 8px rgba(0, 0, 0, 0.18);
+}
+
+.prideflags-table th {
+    background-color: rgb(135, 70, 70);
+
+    color: #fff5d7;
+
+    padding: 18px;
+
+    text-align: center;
+
+    font-size: 1.1rem;
+}
+
+.prideflags-table td {
+    padding: 20px;
+
+    text-align: center;
+
+    vertical-align: middle;
+
+    line-height: 1.6;
+
+    border-top: 1px solid #d6a36a;
+}
+
+.prideflags-table tr:nth-child(even) {
+    background-color: #fff8ed;
+}
+
+.prideflags-table tr:hover {
+    background-color: #f3e3d1;
+}
+
+.prideflags-table td:first-child {
+    width: 30%;
+    
+    font-weight: bold;
+
+    color: rgba(135, 70, 70);
+
+    font-size: 1.05rem;
+}
+
+.prideflags-table td:last-child {
+    text-align: left;
+
+    width: 70%;
+}
+
+/* Allies Section */
+
+.allies-section {
+    max-width: 700px;
+
+    margin: 45px auto;
+
+    padding: 30px;
+
+    background-color: #ffffff;
+
+    border: 3px solid #d6a36a;
+
+    border-radius: 25px;
+
+    box-shadow: 
+        0 6px 15px rgba(80, 55, 8, 0.15);
+
+    text-align: center;
+}
+
+.allies-section h2 {
+    margin-top: 0;
+
+    margin-bottom: 25px;
+
+    color: rgb(135, 70, 70);
+}
+
+.ally-flag {
+    display: block;
+
+    width: 220px;
+    height: auto;
+
+    margin: 0 auto 25px;
+
+    border-radius: 10px;
+
+    border: 3px solid white;
+
+    box-shadow: 
+        0 4px 10px rgba(0, 0, 0, 0.18);
+}
+
+.allies-section p {
+    max-width: 600px;
+
+    margin: 0 auto;
+
+    color: rgb(80, 55, 8);
+
+    line-height: 1.7;
+
+    font-size: 1.05rem;
+}
+
+/* Icons for Socials */
+
+.socials {
+    display: flex;
+
+    justify-content: center;
+
+    gap: 70px;
+
+    margin-top: 20px;
+}
+
+.socials a {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    width: 45px;
+    height: 45px;
+
+    background-color: rgb(135, 70, 70);
+
+    color: white;
+
+    border-radius: 50%;
+
+    text-decoration: none;
+
+    font-size: 22px;
+
+    transition: 
+    background-color 0.3s ease,
+    transform 0.2s ease;
+}
+
+.socials a:hover {
+    background-color: #d1845c;
+
+    transform: translate(-3px);
 }
 
 /* Footer */
