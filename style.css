@@ -29,7 +29,8 @@ body {
     font-family: Arial, sans-serif;
 
     margin: 0;
-    padding: 20px;
+
+    padding: 70px 20px 20px 20px;
 
     color: rgb(80, 55, 8);
 }
@@ -38,10 +39,13 @@ body {
 
 nav {
     text-align: center;
+
     margin-bottom: 30px;
+
     padding: 15px;
 
     background-color: #fff;
+
     border-radius: 20px;
 
     box-shadow: 0 4px 12px rgba(80, 55, 8, 0.12);
@@ -49,8 +53,11 @@ nav {
 
 nav a {
     color: rgb(135, 70, 70);
+
     text-decoration: none;
+
     font-weight: bold;
+
     margin: 0 15px;
 
     transition: color 0.3s ease;
@@ -60,16 +67,57 @@ nav a:hover {
     color: #d1845c;
 }
 
+/* Escape Button/Bar */ /* Note to self, z-index means that it stay at the top of the page Taylor, you need it! */
+
+.top-bar {
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    padding: 6px 20px;
+
+    background-color: #ffffff;
+}
+
+
+.top-bar p {
+    margin: 0;
+}
+
+.escape-button {
+    border: 1px solid #8b4a4a;
+
+    padding: 4px 10px;
+
+    text-decoration: none;
+}
+
+.main-nav {
+    margin-top: 15px;
+
+    text-align: center;
+}
+
+.main-nav a {
+    margin: 0 12px;
+
+    text-decoration: none;
+}
 /* Headings */
 
 h1 {
     color: rgb(135, 70, 70);
+
     text-align: center;
+
     margin-bottom: 25px;
 }
 
 h2 {
     color: rgb(135, 70, 70);
+
     text-align: center;
 }
 
@@ -77,6 +125,7 @@ h2 {
 
 main {
     max-width: 900px;
+
     margin: 0 auto;
 }
 
@@ -86,7 +135,9 @@ main {
     display: block;
 
     width: 55%;
+
     max-width: 450px;
+
     height: auto;
 
     margin: 40px auto 25px;
@@ -152,6 +203,7 @@ main {
 
 .mission h2 {
     color: #fff5d7;
+
     margin-top: 0;
 }
 
@@ -403,8 +455,11 @@ main {
 
 .cfc-logo {
     display: block;
+
     width: 25%;
+
     max-width: 300px;
+
     height: auto;
 
     margin: 40px auto 25px;
@@ -416,9 +471,13 @@ main {
 
 .qc-logo {
     display: block;
+
     width: 30%;
+
     height: auto;
+
     margin: 40px auto 25px;
+
     filter: drop-shadow(
         0 5px 8px rgba(0, 0, 0, 0.2)
     );
@@ -426,9 +485,13 @@ main {
 
 .sip-logo {
     display: block;
+
     width: 30%;
+
     height: auto;
+
     margin: 40px auto 25px;
+
     filter: drop-shadow(
         0 5px 8px rgba(0, 0, 0, 0.2)
     );
@@ -436,9 +499,13 @@ main {
 
 .ta-logo {
     display: block;
+
     width: 30%;
+
     height: auto;
+
     margin: 40px auto 25px;
+
     filter: drop-shadow(
         0 5px 8px rgba(0, 0, 0, 0.2)
     );
@@ -446,9 +513,13 @@ main {
 
 .stip-logo {
     display: block;
+
     width: 30%;
+
     height: auto;
+
     margin: 40px auto 25px;
+
     filter: drop-shadow(
         0 5px 8px rgba(0, 0, 0, 0.2)
     );
@@ -456,9 +527,13 @@ main {
 
 .md-logo {
     display: block;
+
     width: 40%;
+
     height: auto;
+
     margin: 40px auto 25px;
+
     filter: drop-shadow(
         0 5px 8px rgba(0, 0, 0, 0.2)
     );
